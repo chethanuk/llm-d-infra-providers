@@ -1,0 +1,10 @@
+# Owners of the OKE provider sub-folder. Full review/approval authority for
+# changes under cloud-providers/oke/ (see GOVERNANCE.md). Nominated by
+# @OguzPastirmaci on llm-d/llm-d#2427; both owners must consent before this
+# file merges.
+approvers:
+- OguzPastirmaci
+- dkennetzoracle
+reviewers:
+- OguzPastirmaci
+- dkennetzoracle

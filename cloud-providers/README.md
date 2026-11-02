@@ -9,10 +9,11 @@ llm-d, qualified against the [conformance suite](../conformance/README.md).
 |---|---|
 | [gke](gke/) | pilot provider: docs, scripts, AI skill, conformance profiles; external Terraform and AI-skill links ([accelerated-platforms](https://github.com/GoogleCloudPlatform/accelerated-platforms)) |
 | [aks](aks/) | migrated docs; owners needed |
+| [oke](oke/) | scaffold: README, OWNERS, one conformance profile; qualification pending |
 | [digitalocean](digitalocean/) | migrated docs; owners needed |
 | [minikube](minikube/) | migrated docs; owners needed |
 | [openshift](openshift/) | migrated docs; owners needed |
 | [openshift-aws](openshift-aws/) | migrated docs; owners needed |
 
-To add a provider (EKS, OKE, bare-metal, ...), see
+To add a provider (EKS, bare-metal, ...), see
 [CONTRIBUTING.md](../CONTRIBUTING.md).

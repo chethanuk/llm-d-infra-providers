@@ -31,6 +31,7 @@ per-provider provisioning tooling.
 cloud-providers/      Per-cloud-provider provisioning tooling and docs
   gke/                Google Kubernetes Engine (pilot provider)
   aks/                Azure Kubernetes Service
+  oke/                Oracle Kubernetes Engine
   digitalocean/       DigitalOcean Kubernetes
   minikube/           minikube (single-host development)
   openshift/          OpenShift Container Platform
@@ -98,6 +99,7 @@ and a pod-to-pod NIXL transfer benchmark. Captured runs from live clusters are i
 |---|---|---|---|
 | [gke](cloud-providers/gke/) | see `cloud-providers/gke/OWNERS` | docs, scripts, AI skill | `gke-optimized-baseline`, `gke-pd-disaggregation`, `gke-wide-ep-lws`, `gke-a4x-pd-disaggregation` |
 | [aks](cloud-providers/aks/) | needed | docs (migrated from llm-d) | - |
+| [oke](cloud-providers/oke/) | see `cloud-providers/oke/OWNERS` | docs (links to oci-hpc-oke Terraform) | - (`oke-amd-pd-disaggregation` pending) |
 | [digitalocean](cloud-providers/digitalocean/) | needed | docs (migrated from llm-d) | - |
 | [minikube](cloud-providers/minikube/) | needed | docs (migrated from llm-d) | - |
 | [openshift](cloud-providers/openshift/) | needed | docs (migrated from llm-d) | - |

@@ -10,7 +10,7 @@
 # every constraint is satisfied (unconstrained dimensions match any value).
 dimensions:
   # Kubernetes infrastructure provider. "base" means provider-agnostic.
-  infra_provider: [base, gke, eks, aks, openshift, openshift-aws, digitalocean, minikube, baremetal]
+  infra_provider: [base, gke, eks, aks, oke, openshift, openshift-aws, digitalocean, minikube, baremetal]
 
   # Accelerator family. gpu = NVIDIA data-center GPUs.
   accelerator: [gpu, amd, xpu, hpu, tpu/v6, tpu/v7, cpu]

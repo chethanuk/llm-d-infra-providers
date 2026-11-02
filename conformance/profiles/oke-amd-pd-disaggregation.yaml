@@ -1,0 +1,13 @@
+# Conformance profile: pd-disaggregation guide on OKE with AMD MI300X
+# (BM.GPU.MI300X.8). The guide's amd/vllm/nixl/oci overlay requests
+# amd.com/gpu plus NVIDIA Network Operator SR-IOV VFs (nvidia.com/sriov-rdma-vf)
+# over RoCE, attached through Multus; no DRA.
+guide: pd-disaggregation
+dimensions:
+  infra_provider: oke
+  accelerator: amd
+  rdma: roce
+  dra: none
+  router_mode: standalone
+  gateway_provider: none
+  model_server: vllm
