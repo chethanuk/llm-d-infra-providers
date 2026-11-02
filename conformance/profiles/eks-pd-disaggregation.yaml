@@ -1,0 +1,13 @@
+# Conformance profile: pd-disaggregation guide on EKS with EFA. The guide's
+# gpu/vllm/aws overlay pins p5en.48xlarge nodes, requests nvidia.com/gpu via
+# the device plugin and vpc.amazonaws.com/efa from the EFA device plugin
+# (8 per decode pod, 2 per prefill pod); NIXL uses the libfabric backend.
+guide: pd-disaggregation
+dimensions:
+  infra_provider: eks
+  accelerator: gpu
+  rdma: efa
+  dra: none
+  router_mode: standalone
+  gateway_provider: none
+  model_server: vllm

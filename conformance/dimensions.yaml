@@ -15,8 +15,9 @@ dimensions:
   # Accelerator family. gpu = NVIDIA data-center GPUs.
   accelerator: [gpu, amd, xpu, hpu, tpu/v6, tpu/v7, cpu]
 
-  # Inter-node fast fabric available to workload pods.
-  rdma: [none, roce, ib]
+  # Inter-node fast fabric available to workload pods. efa = AWS Elastic
+  # Fabric Adapter (libfabric/OFI transport; UCX does not support it).
+  rdma: [none, roce, ib, efa]
 
   # How accelerators/NICs are exposed to pods.
   #   none    - classic device plugin (e.g. nvidia.com/gpu resource requests)
